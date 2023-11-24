@@ -11,6 +11,9 @@ let array = [];
 
 for (let i=0; i<elementi; i++) {
     array.push(Math.floor(Math.random() * 100 + 1));
-    console.log(array[i]);
-     
-}
+  
+}  
+
+for(let i=elementi-1; i>array.length-6; i--) {
+        console.log(array[i]);
+    }
